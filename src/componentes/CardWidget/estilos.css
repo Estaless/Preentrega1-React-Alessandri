@@ -1,0 +1,38 @@
+.CartW {
+    position: relative;
+     display: flex;
+     justify-content: flex-end;
+     margin-right: 20px;
+     
+ }
+ 
+ .parrafo {
+     text-align:left;
+     font-weight: bold;
+     color: rgb(195, 155, 155);
+     font-size: 10px;
+ }
+ 
+ .icono{
+     position: relative;
+     top: -50px;
+     right: 30px;
+ 
+ }
+ .icono2 {
+     color: aqua;
+     display: flex;
+     justify-content: center;
+ }
+ 
+ .span {
+     
+     position: relative;
+     top: -50px;
+     right: 30px;
+     padding: 1px 5px;
+     border-radius: 50%;
+     background: rgb(0, 106, 255);
+     color: white;
+     font-size: 12px;
+ }
