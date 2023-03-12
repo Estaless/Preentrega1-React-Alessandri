@@ -6,7 +6,7 @@ const productos =
         desc: "Te va a encantar",
         precio: 100,
         img: "/img/Alfajor4.jpg",
-        categoria: "alfajor",
+        categoria: "alfajores",
         cantidad:1
     },
 
@@ -16,7 +16,7 @@ const productos =
         desc: "Te va a encantar",
         precio: 400,
         img: '/img/Budines2.jpg',
-        categoria: "torta",
+        categoria: "tortas",
         cantidad:1  
     },
 
@@ -26,7 +26,7 @@ const productos =
         desc: "Te va a encantar",
         precio: 200,
         img: '/img/brownies.jpg',
-        categoria: "alfajor",
+        categoria: "alfajores",
         cantidad:1  
     },
 
@@ -36,7 +36,7 @@ const productos =
         desc: "Te va a encantar",
         precio: 700,
         img: '/img/pasta-frola-1-FP.jpg',
-        categoria: "torta",
+        categoria: "tortas",
         cantidad:1  
     },
 
@@ -46,7 +46,7 @@ const productos =
         desc: "Te va a encantar",
         precio: 900,
         img: '/img/rogel.jpg',
-        categoria: "torta",
+        categoria: "tortas",
         cantidad:1  
     },
 
@@ -56,7 +56,7 @@ const productos =
         desc: "Te va a encantar",
         precio: 1200,
         img: '/img/tortaoreo.jpg',
-        categoria: "torta",
+        categoria: "tortas",
         cantidad:1  
     },
 ];
