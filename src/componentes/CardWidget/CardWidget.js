@@ -1,9 +1,14 @@
+
 import {FaShoppingCart} from 'react-icons/fa';
 import {FcShipped} from 'react-icons/fc'
 import './estilos.css'
+import React, {useContext} from 'react';
+
 
 
 function CartWidget () {
+  
+
     return(
     <div>
 
