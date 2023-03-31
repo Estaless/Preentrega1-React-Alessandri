@@ -1,31 +1,26 @@
 
 import {FaShoppingCart} from 'react-icons/fa';
-import {FcShipped} from 'react-icons/fc'
+
 import './estilos.css'
-import React, {useContext} from 'react';
+import React from 'react';
+import { useCartContext } from '../../context/CartContext';
 
 
 
-function CartWidget () {
-  
+export const CartWidget = () => {
+const {totalProducts} = useCartContext();
 
-    return(
+return(
     <div>
 
     
         <div>
-            <a href='#' className='CartW'>
+            <i  className='CartW'>
                 <FaShoppingCart className="icono" />
-                <span className='span'> 0 </span> 
-             </a>
+                <span className='span'> {totalProducts() || "0"}  </span> 
+             </i>
         </div>
-        <div> 
-            <p className='parrafo'>Tenemos envio gratis</p>
-            <a href='#' className='envio'>
-                <FcShipped className='icono2'/>
-            </a>
-           
-        </div>
+       
     
     </div>
     )
