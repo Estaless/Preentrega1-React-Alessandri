@@ -52,7 +52,7 @@ const Cart = () => {
             Total: {totalPrice()}
         </p>
 
-        <button onClick={handleClick} >Generar compra</button>
+        <button className="buttongenerarcompra" onClick={handleClick}  >Generar compra</button>
           </>    
         
         

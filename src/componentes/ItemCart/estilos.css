@@ -17,3 +17,14 @@
     margin-right: 1rem;
     
 }
+
+.ItemCart button{
+    background-color: antiquewhite;
+    color: black;
+    font-weight: bold;
+}
+
+.ItemCart button:hover{
+    background-color: red;
+    color: aliceblue;
+}
