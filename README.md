@@ -1,3 +1,12 @@
+Alumno: Alessandri Esteban
+
+Descripción: Se propone realizar un eccomerce a eleccion. Mi eleccion fue un local ficticio de venta de tortas y alfajores. 
+
+Repositorio montado en Firebase: https://console.firebase.google.com/project/protecto-react-123/overview
+
+Realizado con ReactJS
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
