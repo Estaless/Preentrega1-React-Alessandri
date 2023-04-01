@@ -1,0 +1,17 @@
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 1rem;
+
+}
+
+.link{
+    background-color: blue;
+    color: aqua;
+    border-radius: 10%;
+    text-align: center;
+}
+
+.link :hover{
+    background-color: aliceblue;
+}

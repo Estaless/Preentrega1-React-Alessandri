@@ -1,5 +1,5 @@
 import ItemCount from '../ItemCount/index';
-import productos from '../../stock';
+import { getFirestore, collection, getDocs, query, where} from "firebase/firestore"
 import './estilos.css'
 import ItemList from '../ItemList/ItemList';
 import React, {useEffect, useState} from 'react';
@@ -14,15 +14,17 @@ function ItemListContainer ({greeting}) {
     const {categoriaId} = useParams();
 
     useEffect(() => {
-        const getData = new Promise(resolve => {
-            setTimeout(() => {
-                resolve(productos);
-            }, 1000);
-        });
-        if(categoriaId){
-            getData.then(res => setData(res.filter(producto => producto.categoria === categoriaId)));
+       
+        const querydb = getFirestore();
+        const queryCollection = collection(querydb, "productos");
+        
+         if(categoriaId){
+           const queryFilter = query(queryCollection, where("categoria", "==", categoriaId))
+           getDocs(queryFilter)
+                .then(res => setData(res.docs.map(productos => ({id: productos.id, ...productos.data() }))))
         } else{
-            getData.then(res => setData(res)) 
+            getDocs(queryCollection)
+                .then(res => setData(res.docs.map(productos => ({id: productos.id, ...productos.data() }))))
         }
 
     

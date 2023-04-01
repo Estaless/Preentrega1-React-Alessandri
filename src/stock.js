@@ -2,7 +2,7 @@ const productos =
 [
     {
         id: 1,
-        nombre: "Alfajor1",
+        nombre: "Alfajor",
         desc: "Te va a encantar",
         precio: 100,
         img: "/img/Alfajor4.jpg",
